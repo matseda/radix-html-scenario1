@@ -9,7 +9,7 @@ To run this project localy you need to install Docker.
 * Get Docker - [Docker](https://docs.docker.com/install/)
 
 ### Run the app
-First you need to clone this repository using git clone
+First you need to get a local copy of this repository, this could be done using git clone
 
 ```
 git clone <repo-url>
@@ -35,3 +35,4 @@ The application should now be running in a container and accessible on http://lo
 ```
 docker container ps
 ```
+When you want the container and the application to stop running you simply go into the terminal window where you executed the 'docker run' command and press Ctrl+C.
