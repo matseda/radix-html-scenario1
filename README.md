@@ -1,5 +1,5 @@
 # Radix-HTML-scenario1
-This is a simple html page containerized using docker. No external dependencies. No back end dependencies. No storage. No secrets. Static/Dynamic web page 
+This is a simple html page containerized using docker. No external dependencies, back end dependencies, storage or secrets.
 
 ## Getting started
 Follow these instructions to get a copy of the project on your local machine
