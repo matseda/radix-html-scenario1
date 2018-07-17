@@ -42,7 +42,7 @@ When you want the container and the application to stop running you simply go in
 
 ## Deployment
 
-To depoly this app follow the steps described in the [Radix Wiki](https://radix-wiki.azurewebsites.net/doku.php/appdeveloper/gettingstarted)
+To deploy this app on the radix web console follow the steps described in the [Radix Wiki](https://radix-wiki.azurewebsites.net/doku.php/appdeveloper/gettingstarted)
 
 ## Built With
 * [Docker](https://docs.docker.com/) - Containerizing the app
