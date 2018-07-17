@@ -1,5 +1,5 @@
 # Radix-HTML-scenario1
-This is a simple html page dockerised using nginx. No external dependencies. No back end dependencies. No storage. No secrets. Static/Dynamic web page 
+This is a simple html page containerized using docker. No external dependencies. No back end dependencies. No storage. No secrets. Static/Dynamic web page 
 
 ## Getting started
 Follow these instructions to get a copy of the project on your local machine
@@ -8,7 +8,7 @@ Follow these instructions to get a copy of the project on your local machine
 To run this project localy you need to install Docker.
 * Get Docker - [Docker](https://docs.docker.com/install/)
 
-### Run the app
+### Run localy
 First you need to get a local copy of this repository, this could be done using git clone
 
 ```
@@ -39,3 +39,13 @@ The application should now be running in a container and accessible on http://lo
 docker container ps
 ```
 When you want the container and the application to stop running you simply go into the terminal window where you executed the 'docker run' command and press Ctrl+C.
+
+## Deployment
+
+To depoly this app follow the steps described in the [Radix Wiki](https://radix-wiki.azurewebsites.net/doku.php/appdeveloper/gettingstarted)
+
+## Built With
+* [Docker](https://docs.docker.com/) - Containerizing the app
+
+## Authors
+* **Mats Davidsen**
