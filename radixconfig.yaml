@@ -1,7 +1,7 @@
 apiVersion: "radix.equinor.com/v1"
 kind: "RadixApplication"
 metadata:
-  name: "radix-hello"
+  name: "radix-html-scenario1"
 spec:
   environments:
     - name: "development"
@@ -15,7 +15,7 @@ spec:
         groups:
         - "g_radix_platform_user"
   components:
-    - name: "frexapp"
+    - name: "scenario1"
       src: "."
       ports:
        - 80
