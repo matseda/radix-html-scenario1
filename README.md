@@ -15,7 +15,7 @@ First you need to clone this repository using git clone
 git clone <repo-url>
 ```
 
-Now move into the folder created by the clone and run the following command to build the docker image with a custom image tag
+Now move into the folder created by the 'git clone' command and run the following command to build the docker image with a custom image tag
 
 ```
 docker build -t <image-tag> .
@@ -30,4 +30,8 @@ When you know the image has been created you can run the application using the i
 ```
 docker run -p 80:80 <image-tag>
 ```
-The application should now be running and accessible on (http://localhost:80)
+The application should now be running in a container and accessible on http://localhost:80, you can also view all running container by opening a new terminal window and then enter the following command
+
+```
+docker container ps
+```
