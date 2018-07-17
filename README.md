@@ -23,22 +23,26 @@ docker build -t <image-tag> .
 ##Example 
 docker build -t radixhtml:1.0 .
 ```
-You can run the command below to list all images, use this to check if the image was created with the correct tag
-
-```
-docker images
-```
-When you know the image has been created you can run the application using the image, in the following code I will map the application to port 80. We use the same image tag as when we created the image with the 'docker build' command
+Run the application using the image, in the following code I will map the application to port 80. We use the same image tag as when we created the image with the 'docker build' command
 
 ```
 docker run -p 80:80 <image-tag>
 ```
-The application should now be running in a container and accessible on http://localhost:80, you can also view all running container by opening a new terminal window and enter the following command
+The application should now be running in a container and accessible on http://localhost:80, when you want the container and the application to stop running you simply go into the terminal window where you executed the 'docker run' command and press Ctrl+C.
+
+### Troubleshooting
+
+You can run the command below to list all images, use this to check if an image was created with the correctly
+
+```
+docker images
+```
+
+You can view all running container by running the following command, use this to check if your application is running 
 
 ```
 docker container ps
 ```
-When you want the container and the application to stop running you simply go into the terminal window where you executed the 'docker run' command and press Ctrl+C.
 
 ## Deployment
 
