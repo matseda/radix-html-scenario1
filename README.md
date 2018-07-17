@@ -32,7 +32,7 @@ The application should now be running in a container and accessible on http://lo
 
 ### Troubleshooting
 
-You can run the command below to list all images, use this to check if an image was created correctly
+You can run the command below to list all images, use this to check if an image was created 
 
 ```
 docker images
