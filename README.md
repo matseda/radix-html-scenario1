@@ -15,10 +15,13 @@ First you need to get a local copy of this repository, this could be done using 
 git clone <repo-url>
 ```
 
-Now move into the folder created by the 'git clone' command and run the following command to build the docker image with a custom image tag
+Now move into the folder created by the 'git clone' command and run the following command to build the docker image with a custom image tag, in the example we use 'radixhtml:1.0' which will result in the image getting the repository name 'radixhtml' and the tag '1.0'
 
 ```
 docker build -t <image-tag> .
+
+##Example 
+docker build -t radixhtml:1.0 .
 ```
 You can run the command below to list all images, use this to check if the image was created with the correct tag
 
@@ -30,7 +33,7 @@ When you know the image has been created you can run the application using the i
 ```
 docker run -p 80:80 <image-tag>
 ```
-The application should now be running in a container and accessible on http://localhost:80, you can also view all running container by opening a new terminal window and then enter the following command
+The application should now be running in a container and accessible on http://localhost:80, you can also view all running container by opening a new terminal window and enter the following command
 
 ```
 docker container ps
