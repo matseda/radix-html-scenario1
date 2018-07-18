@@ -28,21 +28,7 @@ Run the application using the image, in the following code I will map the applic
 ```
 docker run -p 80:80 <image-tag>
 ```
-The application should now be running in a container and accessible on http://localhost:80, when you want the container and the application to stop running you simply go into the terminal window where you executed the 'docker run' command and press Ctrl+C.
-
-### Troubleshooting
-
-You can run the command below to list all images, use this to check if an image was created 
-
-```
-docker images
-```
-
-You can view all running container by running the following command, use this to check if your application is running 
-
-```
-docker container ps
-```
+The application should now be running in a container and accessible on http://localhost:80
 
 ## Deployment
 
